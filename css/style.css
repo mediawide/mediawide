@@ -89,12 +89,14 @@ header{
 /* ---------------- BANNER 영역 ---------------- */
 
 .banner{
+    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin-top: 80px;
     padding-bottom: 120px;
+    overflow-x: hidden;
 }
 
 .banner-wrapper{
