@@ -458,6 +458,30 @@ footer{
     border: 1px solid var(--color-white);
 }
 
+.field:nth-of-type(5){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.field:nth-of-type(5) label{
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+.field input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    accent-color: var(--color-white);
+    outline: none;
+    border: none;
+}
+
+.field input[type="checkbox"]:checked{
+    outline: none;
+    border: none;
+}
+
 .field textarea{
     display: block;
     width: 100%;
