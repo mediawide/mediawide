@@ -478,7 +478,7 @@ footer{
     width: 16px;
     height: 16px;
     color: var(--color-black);
-    accent-color: var(--color-white);
+    accent-color: var(--color-black);
     outline: none;
     border: none;
 }
