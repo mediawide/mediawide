@@ -279,6 +279,10 @@ footer{
     word-break: keep-all;
 }
 
+.footer-wrapper > p a {
+    color: var(--color-gray);
+}
+
 @media screen and (max-width: 1320px) {
     .video-wrapper > iframe{
         width: calc(100vw - 40px);
